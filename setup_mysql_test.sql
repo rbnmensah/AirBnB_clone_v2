@@ -6,11 +6,11 @@
 
 
 -- Connect to the MySQL server as root (adjust the credentials if needed)
-db = MySQLdb.connect(
+hbnb_test_db  = MySQLdb.connect(
     host='localhost',
     port=3306,
-    user='root',
-    passwd='your_root_password'
+    user='hbnb_test',
+    password='hbnb_test_pwd'
 )
 
 -- Create a cursor object to execute queries
