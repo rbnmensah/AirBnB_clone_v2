@@ -6,7 +6,7 @@
 
 
 -- Connect to the MySQL server as root (adjust the credentials if needed)
-hbnb_test_db  = MySQLdb.connect(
+ db  = MySQLdb.connect(
     host='localhost',
     port=3306,
     user='hbnb_test',
