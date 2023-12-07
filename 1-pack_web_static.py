@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """ This module contains the function do_pack that generates a .tgz archive
   from the contents of the web_static folder (fabric script) """
-#static file
 
 
 from fabric.api import *
