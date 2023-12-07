@@ -5,11 +5,11 @@
 --   Grants SELECT privilege for hbnb_dev on performance.
 
 -- Connect to the MySQL server as root (adjust the credentials if needed)
-db = MySQLdb.connect(
+    db  = MySQLdb.connect(
     host='localhost',
     port=3306,
-    user='root',
-    passwd='your_root_password'
+    user='hbnb_dev',
+    password='hbnb_dev_pwd'
 )
 
 -- Create a cursor object to execute queries
